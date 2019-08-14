@@ -6,6 +6,7 @@
 
     <persistence-unit name="my-test-unit" transaction-type="RESOURCE_LOCAL">
         <class>net.bigblues.jpa.sample.entity.User</class>
+        <class>net.bigblues.jpa.sample.entity.Organization</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1"/>
