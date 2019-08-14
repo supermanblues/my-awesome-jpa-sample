@@ -26,7 +26,7 @@ dependencies {
 
     api 'javax.persistence:javax.persistence-api:2.2'
     api 'javax.validation:validation-api:2.0.1.Final'
-    
+
     // Use the latest Groovy version for Spock testing
     testImplementation 'org.codehaus.groovy:groovy-all:2.5.6'
 
@@ -39,5 +39,6 @@ dependencies {
     testRuntimeOnly 'org.hibernate:hibernate-core:5.4.4.Final'
     testRuntimeOnly 'org.hibernate:hibernate-validator:6.0.17.Final'
     testRuntimeOnly 'org.glassfish:javax.el:3.0.1-b11'
+
     testRuntimeOnly 'com.h2database:h2:1.4.199'
 }
