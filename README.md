@@ -1,0 +1,1 @@
+# my-awesome-jpa-sample
